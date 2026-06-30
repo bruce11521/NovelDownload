@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "rxwUfVmwcIk=",
+  "success": true,
+  "projectFilePath": "D:\\Git\\NovelDownload\\CoreBase\\CoreBase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bruce\\.nuget\\packages\\dapper\\2.1.79\\dapper.2.1.79.nupkg.sha512",
+    "C:\\Users\\bruce\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
+    "C:\\Users\\bruce\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\10.0.8\\microsoft.bcl.asyncinterfaces.10.0.8.nupkg.sha512",
+    "C:\\Users\\bruce\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
+    "C:\\Users\\bruce\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.1.2\\system.runtime.compilerservices.unsafe.6.1.2.nupkg.sha512",
+    "C:\\Users\\bruce\\.nuget\\packages\\system.threading.tasks.extensions\\4.6.3\\system.threading.tasks.extensions.4.6.3.nupkg.sha512",
+    "C:\\Users\\bruce\\.nuget\\packages\\telerik.licensing\\1.8.2\\telerik.licensing.1.8.2.nupkg.sha512"
+  ],
+  "logs": []
+}

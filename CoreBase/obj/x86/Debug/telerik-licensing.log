@@ -1,0 +1,1273 @@
+﻿[2026-06-27 22:33:59.018] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=CoreBase
+  MSBuildProjectDirectory=D:\Git\NovelDownload\CoreBase
+  MSBuildProjectExtension=.csproj
+  Language=C#
+  OutputPath=bin\Debug\
+  Platform=x86
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=Library
+  UseMaui=
+  NuGetPackageRoot=C:\Users\bruce\.nuget\packages\
+
+  PackageReferences
+  - Newtonsoft.Json 13.0.4
+  - Telerik.Licensing 1.*
+  ReferencePaths
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - mscorlib.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll
+  - Newtonsoft.Json.dll 13.0.4 at C:\Users\bruce\.nuget\packages\newtonsoft.json\13.0.4\lib\net45\Newtonsoft.Json.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\bruce\.nuget\packages\telerik.licensing\1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.WinControls.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.2.520 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.UI.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+  - TelerikCommon.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+  MachineId=LNizpxLTwCegOeDTpCQ9XZknyoA=
+
+[2026-06-27 22:33:59.037] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      Unique Products:
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20
+      Found a total of 1 referenced Telerik products for 
+
+[2026-06-27 22:33:59.065] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\kendo-ui-license.txt (NotAvailable)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\telerik-license.txt (LicenseFound)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: j*******@m***.n*******.e**.tw
+        - UsedId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        - LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        - IssuedAt: 2025/03/25 13:51:42
+        - Licenses
+          0) Perpetual BLAZOR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          1) Perpetual KENDOUIANGULAR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          2) Perpetual KENDOUICOMPLETE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          3) Perpetual KENDOUIMVC, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          4) Perpetual KENDOUIREACT, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          5) Perpetual KENDOUIVUE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          6) Perpetual MAUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          7) Perpetual RCAJAX, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          8) Perpetual RCWF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          9) Perpetual RCWPF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          10) Perpetual REPORTING, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          11) Perpetual REPORTSERVER, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          12) Perpetual UIASPCORE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          13) Perpetual UIXAM, expiration 2025/02/19 06:00:00, type: 'perpetual'
+          14) Perpetual WINUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          15) Usage UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3, LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881, type: 'usage'
+
+[2026-06-27 22:33:59.071] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODI1MTExNjU0LCJ1c2VySWQiOiJjNDYwMmRlZS01YTQxLTQ3MDgtOGM5NS01ZmI2ZTc4OWZhZjMiLCJsaWNlbnNlSWQiOiI5ZGQ2ZTEwOS1iM2M1LTRhZWItODU2Zi1jYjdmMjVlZTE4ODEifQ.zqhILy38CU1qCtJM3dgwGZEyMA_ZfvVgFVqF5b6jqnDmxKV3HcyYFWa4H6B2XRiiSyzmaR1MrLdAiaFVI4XCyocOoa-M_vBzxJ76vRs0yMlCKhZJwkmG7Lz48XyUW7Tss79KCVm3MYVN13UZrYxrHtZGoL4GH2d9cWgR2rX2WwYQIHi89oG9dUyua5IgzwvOlAAxxd3rwwCBpuf5GaB91gvHpNeoeAR-lrstV90oKal12CtVA9SXBqBO2bVI0bdXNEt3WLDwPPxotKhnVV244EWAinTYsvHxzYIC8t7LGv6dOhPHIWAc8CHGvEJCxNYq8sS1KRcbVhJXZAC-7ol_qA
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+
+[2026-06-27 22:33:59.075] [Low] OutputType: Library, ImportXamlTargets: True
+[2026-06-27 22:33:59.076] [Low] LicenseEvidence CodeGen: obj\x86\Debug\Telerik.Licensing.LicenseInfo.cs
+[2026-06-27 22:33:59.086] [Low] 
+      Call-Home Telerik Products (1 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520
+
+[2026-06-27 22:33:59.086] [Low] 
+[2026-06-27 22:33:59.088] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-06-27 22:33:59.088] [Low] 
+[2026-06-27 22:34:00.116] [Low]   Report Telerik.Licensing
+        UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        Products
+        WorkstationId: e165a5b7-1c1b-f053-77c5-77d10f95545a
+        - LicenseUsed RCWF 2026.2.520.48 OK
+      Report finished in 00:00:01.0239677
+
+[2026-06-27 22:34:00.117] [Low]   Sending Telemetry...
+[2026-06-27 22:34:02.042] [Low]   Metrics done 00:00:01.9242125
+[2026-06-27 22:34:02.044] [Normal] Resolve Telerik Products. Done (00:00:04.6234758) for 
+[2026-06-27 22:34:02.974] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=CoreBase
+  MSBuildProjectDirectory=D:\Git\NovelDownload\CoreBase
+  MSBuildProjectExtension=.csproj
+  Language=C#
+  OutputPath=bin\Debug\
+  Platform=x86
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=Library
+  UseMaui=
+  NuGetPackageRoot=C:\Users\bruce\.nuget\packages\
+
+  PackageReferences
+  - Newtonsoft.Json 13.0.4
+  - Telerik.Licensing 1.*
+  ReferencePaths
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - mscorlib.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll
+  - Newtonsoft.Json.dll 13.0.4 at C:\Users\bruce\.nuget\packages\newtonsoft.json\13.0.4\lib\net45\Newtonsoft.Json.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\bruce\.nuget\packages\telerik.licensing\1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.WinControls.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.2.520 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.UI.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+  - TelerikCommon.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+  MachineId=LNizpxLTwCegOeDTpCQ9XZknyoA=
+
+[2026-06-27 22:34:02.990] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      Unique Products:
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20
+      Found a total of 1 referenced Telerik products for 
+
+[2026-06-27 22:34:03.015] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\kendo-ui-license.txt (NotAvailable)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\telerik-license.txt (LicenseFound)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: j*******@m***.n*******.e**.tw
+        - UsedId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        - LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        - IssuedAt: 2025/03/25 13:51:42
+        - Licenses
+          0) Perpetual BLAZOR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          1) Perpetual KENDOUIANGULAR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          2) Perpetual KENDOUICOMPLETE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          3) Perpetual KENDOUIMVC, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          4) Perpetual KENDOUIREACT, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          5) Perpetual KENDOUIVUE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          6) Perpetual MAUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          7) Perpetual RCAJAX, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          8) Perpetual RCWF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          9) Perpetual RCWPF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          10) Perpetual REPORTING, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          11) Perpetual REPORTSERVER, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          12) Perpetual UIASPCORE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          13) Perpetual UIXAM, expiration 2025/02/19 06:00:00, type: 'perpetual'
+          14) Perpetual WINUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          15) Usage UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3, LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881, type: 'usage'
+
+[2026-06-27 22:34:03.019] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODI1MTExNjU0LCJ1c2VySWQiOiJjNDYwMmRlZS01YTQxLTQ3MDgtOGM5NS01ZmI2ZTc4OWZhZjMiLCJsaWNlbnNlSWQiOiI5ZGQ2ZTEwOS1iM2M1LTRhZWItODU2Zi1jYjdmMjVlZTE4ODEifQ.zqhILy38CU1qCtJM3dgwGZEyMA_ZfvVgFVqF5b6jqnDmxKV3HcyYFWa4H6B2XRiiSyzmaR1MrLdAiaFVI4XCyocOoa-M_vBzxJ76vRs0yMlCKhZJwkmG7Lz48XyUW7Tss79KCVm3MYVN13UZrYxrHtZGoL4GH2d9cWgR2rX2WwYQIHi89oG9dUyua5IgzwvOlAAxxd3rwwCBpuf5GaB91gvHpNeoeAR-lrstV90oKal12CtVA9SXBqBO2bVI0bdXNEt3WLDwPPxotKhnVV244EWAinTYsvHxzYIC8t7LGv6dOhPHIWAc8CHGvEJCxNYq8sS1KRcbVhJXZAC-7ol_qA
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+
+[2026-06-27 22:34:03.021] [Low] OutputType: Library, ImportXamlTargets: True
+[2026-06-27 22:34:03.022] [Low] LicenseEvidence CodeGen: Up to date!
+[2026-06-27 22:34:03.030] [Low] 
+      Call-Home Telerik Products (1 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520
+
+[2026-06-27 22:34:03.030] [Low] 
+[2026-06-27 22:34:03.031] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-06-27 22:34:03.031] [Low] 
+[2026-06-27 22:34:03.113] [Low]   Report Telerik.Licensing
+        UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        Products
+        - LicenseUsed RCWF 2026.2.520.48 SKIPPED
+      Report finished in 00:00:00.0792588
+
+[2026-06-27 22:34:03.114] [Low]   Sending Telemetry...
+[2026-06-27 22:34:03.142] [Low]   Metrics done 00:00:00.0280449
+[2026-06-27 22:34:03.144] [Normal] Resolve Telerik Products. Done (00:00:00.1910226) for 
+[2026-06-27 22:34:16.676] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=CoreBase
+  MSBuildProjectDirectory=D:\Git\NovelDownload\CoreBase
+  MSBuildProjectExtension=.csproj
+  Language=C#
+  OutputPath=bin\Debug\
+  Platform=x86
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=Library
+  UseMaui=
+  NuGetPackageRoot=C:\Users\bruce\.nuget\packages\
+
+  PackageReferences
+  - Dapper 2.1.79
+  - Newtonsoft.Json 13.0.4
+  - Telerik.Licensing 1.*
+  ReferencePaths
+  - Dapper.dll 2.1.79 at C:\Users\bruce\.nuget\packages\dapper\2.1.79\lib\net461\Dapper.dll
+  - Microsoft.Bcl.AsyncInterfaces.dll 10.0.8 at C:\Users\bruce\.nuget\packages\microsoft.bcl.asyncinterfaces\10.0.8\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - mscorlib.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll
+  - Newtonsoft.Json.dll 13.0.4 at C:\Users\bruce\.nuget\packages\newtonsoft.json\13.0.4\lib\net45\Newtonsoft.Json.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.Runtime.CompilerServices.Unsafe.dll 6.1.2 at C:\Users\bruce\.nuget\packages\system.runtime.compilerservices.unsafe\6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll
+  - System.Threading.Tasks.Extensions.dll 4.6.3 at C:\Users\bruce\.nuget\packages\system.threading.tasks.extensions\4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\bruce\.nuget\packages\telerik.licensing\1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.WinControls.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.2.520 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.UI.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+  - TelerikCommon.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+  MachineId=LNizpxLTwCegOeDTpCQ9XZknyoA=
+
+[2026-06-27 22:34:16.693] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      Unique Products:
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20
+      Found a total of 1 referenced Telerik products for 
+
+[2026-06-27 22:34:16.721] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\kendo-ui-license.txt (NotAvailable)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\telerik-license.txt (LicenseFound)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: j*******@m***.n*******.e**.tw
+        - UsedId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        - LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        - IssuedAt: 2025/03/25 13:51:42
+        - Licenses
+          0) Perpetual BLAZOR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          1) Perpetual KENDOUIANGULAR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          2) Perpetual KENDOUICOMPLETE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          3) Perpetual KENDOUIMVC, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          4) Perpetual KENDOUIREACT, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          5) Perpetual KENDOUIVUE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          6) Perpetual MAUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          7) Perpetual RCAJAX, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          8) Perpetual RCWF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          9) Perpetual RCWPF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          10) Perpetual REPORTING, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          11) Perpetual REPORTSERVER, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          12) Perpetual UIASPCORE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          13) Perpetual UIXAM, expiration 2025/02/19 06:00:00, type: 'perpetual'
+          14) Perpetual WINUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          15) Usage UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3, LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881, type: 'usage'
+
+[2026-06-27 22:34:16.727] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODI1MTExNjU0LCJ1c2VySWQiOiJjNDYwMmRlZS01YTQxLTQ3MDgtOGM5NS01ZmI2ZTc4OWZhZjMiLCJsaWNlbnNlSWQiOiI5ZGQ2ZTEwOS1iM2M1LTRhZWItODU2Zi1jYjdmMjVlZTE4ODEifQ.zqhILy38CU1qCtJM3dgwGZEyMA_ZfvVgFVqF5b6jqnDmxKV3HcyYFWa4H6B2XRiiSyzmaR1MrLdAiaFVI4XCyocOoa-M_vBzxJ76vRs0yMlCKhZJwkmG7Lz48XyUW7Tss79KCVm3MYVN13UZrYxrHtZGoL4GH2d9cWgR2rX2WwYQIHi89oG9dUyua5IgzwvOlAAxxd3rwwCBpuf5GaB91gvHpNeoeAR-lrstV90oKal12CtVA9SXBqBO2bVI0bdXNEt3WLDwPPxotKhnVV244EWAinTYsvHxzYIC8t7LGv6dOhPHIWAc8CHGvEJCxNYq8sS1KRcbVhJXZAC-7ol_qA
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+
+[2026-06-27 22:34:16.730] [Low] OutputType: Library, ImportXamlTargets: True
+[2026-06-27 22:34:16.731] [Low] LicenseEvidence CodeGen: Up to date!
+[2026-06-27 22:34:16.741] [Low] 
+      Call-Home Telerik Products (1 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520
+
+[2026-06-27 22:34:16.741] [Low] 
+[2026-06-27 22:34:16.743] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-06-27 22:34:16.743] [Low] 
+[2026-06-27 22:34:16.776] [Low]   Report Telerik.Licensing
+        UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        Products
+        - LicenseUsed RCWF 2026.2.520.48 SKIPPED
+      Report finished in 00:00:00.0291387
+
+[2026-06-27 22:34:16.778] [Low]   Sending Telemetry...
+[2026-06-27 22:34:16.800] [Low]   Metrics done 00:00:00.0219614
+[2026-06-27 22:34:16.802] [Normal] Resolve Telerik Products. Done (00:00:00.1566810) for 
+[2026-06-27 22:34:17.030] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=CoreBase
+  MSBuildProjectDirectory=D:\Git\NovelDownload\CoreBase
+  MSBuildProjectExtension=.csproj
+  Language=C#
+  OutputPath=bin\Debug\
+  Platform=x86
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=Library
+  UseMaui=
+  NuGetPackageRoot=C:\Users\bruce\.nuget\packages\
+
+  PackageReferences
+  - Dapper 2.1.79
+  - Newtonsoft.Json 13.0.4
+  - Telerik.Licensing 1.*
+  ReferencePaths
+  - Dapper.dll 2.1.79 at C:\Users\bruce\.nuget\packages\dapper\2.1.79\lib\net461\Dapper.dll
+  - Microsoft.Bcl.AsyncInterfaces.dll 10.0.8 at C:\Users\bruce\.nuget\packages\microsoft.bcl.asyncinterfaces\10.0.8\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - mscorlib.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll
+  - Newtonsoft.Json.dll 13.0.4 at C:\Users\bruce\.nuget\packages\newtonsoft.json\13.0.4\lib\net45\Newtonsoft.Json.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.Runtime.CompilerServices.Unsafe.dll 6.1.2 at C:\Users\bruce\.nuget\packages\system.runtime.compilerservices.unsafe\6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll
+  - System.Threading.Tasks.Extensions.dll 4.6.3 at C:\Users\bruce\.nuget\packages\system.threading.tasks.extensions\4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\bruce\.nuget\packages\telerik.licensing\1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.WinControls.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.2.520 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.UI.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+  - TelerikCommon.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+  MachineId=LNizpxLTwCegOeDTpCQ9XZknyoA=
+
+[2026-06-27 22:34:17.048] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      Unique Products:
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20
+      Found a total of 1 referenced Telerik products for 
+
+[2026-06-27 22:34:17.075] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\kendo-ui-license.txt (NotAvailable)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\telerik-license.txt (LicenseFound)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: j*******@m***.n*******.e**.tw
+        - UsedId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        - LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        - IssuedAt: 2025/03/25 13:51:42
+        - Licenses
+          0) Perpetual BLAZOR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          1) Perpetual KENDOUIANGULAR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          2) Perpetual KENDOUICOMPLETE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          3) Perpetual KENDOUIMVC, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          4) Perpetual KENDOUIREACT, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          5) Perpetual KENDOUIVUE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          6) Perpetual MAUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          7) Perpetual RCAJAX, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          8) Perpetual RCWF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          9) Perpetual RCWPF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          10) Perpetual REPORTING, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          11) Perpetual REPORTSERVER, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          12) Perpetual UIASPCORE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          13) Perpetual UIXAM, expiration 2025/02/19 06:00:00, type: 'perpetual'
+          14) Perpetual WINUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          15) Usage UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3, LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881, type: 'usage'
+
+[2026-06-27 22:34:17.081] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODI1MTExNjU0LCJ1c2VySWQiOiJjNDYwMmRlZS01YTQxLTQ3MDgtOGM5NS01ZmI2ZTc4OWZhZjMiLCJsaWNlbnNlSWQiOiI5ZGQ2ZTEwOS1iM2M1LTRhZWItODU2Zi1jYjdmMjVlZTE4ODEifQ.zqhILy38CU1qCtJM3dgwGZEyMA_ZfvVgFVqF5b6jqnDmxKV3HcyYFWa4H6B2XRiiSyzmaR1MrLdAiaFVI4XCyocOoa-M_vBzxJ76vRs0yMlCKhZJwkmG7Lz48XyUW7Tss79KCVm3MYVN13UZrYxrHtZGoL4GH2d9cWgR2rX2WwYQIHi89oG9dUyua5IgzwvOlAAxxd3rwwCBpuf5GaB91gvHpNeoeAR-lrstV90oKal12CtVA9SXBqBO2bVI0bdXNEt3WLDwPPxotKhnVV244EWAinTYsvHxzYIC8t7LGv6dOhPHIWAc8CHGvEJCxNYq8sS1KRcbVhJXZAC-7ol_qA
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+
+[2026-06-27 22:34:17.084] [Low] OutputType: Library, ImportXamlTargets: True
+[2026-06-27 22:34:17.085] [Low] LicenseEvidence CodeGen: Up to date!
+[2026-06-27 22:34:17.095] [Low] 
+      Call-Home Telerik Products (1 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520
+
+[2026-06-27 22:34:17.095] [Low] 
+[2026-06-27 22:34:17.097] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-06-27 22:34:17.097] [Low] 
+[2026-06-27 22:34:17.130] [Low]   Report Telerik.Licensing
+        UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        Products
+        - LicenseUsed RCWF 2026.2.520.48 SKIPPED
+      Report finished in 00:00:00.0296199
+
+[2026-06-27 22:34:17.132] [Low]   Sending Telemetry...
+[2026-06-27 22:34:17.154] [Low]   Metrics done 00:00:00.0226472
+[2026-06-27 22:34:17.157] [Normal] Resolve Telerik Products. Done (00:00:00.1363901) for 
+[2026-06-27 22:34:17.897] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=CoreBase
+  MSBuildProjectDirectory=D:\Git\NovelDownload\CoreBase
+  MSBuildProjectExtension=.csproj
+  Language=C#
+  OutputPath=bin\Debug\
+  Platform=x86
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=Library
+  UseMaui=
+  NuGetPackageRoot=C:\Users\bruce\.nuget\packages\
+
+  PackageReferences
+  - Dapper 2.1.79
+  - Newtonsoft.Json 13.0.4
+  - Telerik.Licensing 1.*
+  ReferencePaths
+  - Dapper.dll 2.1.79 at C:\Users\bruce\.nuget\packages\dapper\2.1.79\lib\net461\Dapper.dll
+  - Microsoft.Bcl.AsyncInterfaces.dll 10.0.8 at C:\Users\bruce\.nuget\packages\microsoft.bcl.asyncinterfaces\10.0.8\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - mscorlib.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll
+  - Newtonsoft.Json.dll 13.0.4 at C:\Users\bruce\.nuget\packages\newtonsoft.json\13.0.4\lib\net45\Newtonsoft.Json.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.Runtime.CompilerServices.Unsafe.dll 6.1.2 at C:\Users\bruce\.nuget\packages\system.runtime.compilerservices.unsafe\6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll
+  - System.Threading.Tasks.Extensions.dll 4.6.3 at C:\Users\bruce\.nuget\packages\system.threading.tasks.extensions\4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\bruce\.nuget\packages\telerik.licensing\1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.WinControls.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.2.520 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.UI.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+  - TelerikCommon.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+  MachineId=LNizpxLTwCegOeDTpCQ9XZknyoA=
+
+[2026-06-27 22:34:17.920] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      Unique Products:
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20
+      Found a total of 1 referenced Telerik products for 
+
+[2026-06-27 22:34:17.944] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\kendo-ui-license.txt (NotAvailable)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\telerik-license.txt (LicenseFound)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: j*******@m***.n*******.e**.tw
+        - UsedId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        - LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        - IssuedAt: 2025/03/25 13:51:42
+        - Licenses
+          0) Perpetual BLAZOR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          1) Perpetual KENDOUIANGULAR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          2) Perpetual KENDOUICOMPLETE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          3) Perpetual KENDOUIMVC, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          4) Perpetual KENDOUIREACT, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          5) Perpetual KENDOUIVUE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          6) Perpetual MAUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          7) Perpetual RCAJAX, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          8) Perpetual RCWF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          9) Perpetual RCWPF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          10) Perpetual REPORTING, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          11) Perpetual REPORTSERVER, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          12) Perpetual UIASPCORE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          13) Perpetual UIXAM, expiration 2025/02/19 06:00:00, type: 'perpetual'
+          14) Perpetual WINUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          15) Usage UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3, LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881, type: 'usage'
+
+[2026-06-27 22:34:17.949] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODI1MTExNjU0LCJ1c2VySWQiOiJjNDYwMmRlZS01YTQxLTQ3MDgtOGM5NS01ZmI2ZTc4OWZhZjMiLCJsaWNlbnNlSWQiOiI5ZGQ2ZTEwOS1iM2M1LTRhZWItODU2Zi1jYjdmMjVlZTE4ODEifQ.zqhILy38CU1qCtJM3dgwGZEyMA_ZfvVgFVqF5b6jqnDmxKV3HcyYFWa4H6B2XRiiSyzmaR1MrLdAiaFVI4XCyocOoa-M_vBzxJ76vRs0yMlCKhZJwkmG7Lz48XyUW7Tss79KCVm3MYVN13UZrYxrHtZGoL4GH2d9cWgR2rX2WwYQIHi89oG9dUyua5IgzwvOlAAxxd3rwwCBpuf5GaB91gvHpNeoeAR-lrstV90oKal12CtVA9SXBqBO2bVI0bdXNEt3WLDwPPxotKhnVV244EWAinTYsvHxzYIC8t7LGv6dOhPHIWAc8CHGvEJCxNYq8sS1KRcbVhJXZAC-7ol_qA
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+
+[2026-06-27 22:34:17.951] [Low] OutputType: Library, ImportXamlTargets: True
+[2026-06-27 22:34:17.952] [Low] LicenseEvidence CodeGen: Up to date!
+[2026-06-27 22:34:17.962] [Low] 
+      Call-Home Telerik Products (1 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520
+
+[2026-06-27 22:34:17.962] [Low] 
+[2026-06-27 22:34:17.966] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-06-27 22:34:17.966] [Low] 
+[2026-06-27 22:34:18.064] [Low]   Report Telerik.Licensing
+        UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        Products
+        - LicenseUsed RCWF 2026.2.520.48 SKIPPED
+      Report finished in 00:00:00.0948219
+
+[2026-06-27 22:34:18.066] [Low]   Sending Telemetry...
+[2026-06-27 22:34:18.093] [Low]   Metrics done 00:00:00.0265462
+[2026-06-27 22:34:18.095] [Normal] Resolve Telerik Products. Done (00:00:00.2075545) for 
+[2026-06-27 22:34:22.934] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=CoreBase
+  MSBuildProjectDirectory=D:\Git\NovelDownload\CoreBase
+  MSBuildProjectExtension=.csproj
+  Language=C#
+  OutputPath=bin\Debug\
+  Platform=x86
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=Library
+  UseMaui=
+  NuGetPackageRoot=C:\Users\bruce\.nuget\packages\
+
+  PackageReferences
+  - Dapper 2.1.79
+  - Dapper.Contrib 2.0.78
+  - Newtonsoft.Json 13.0.4
+  - Telerik.Licensing 1.*
+  ReferencePaths
+  - Dapper.Contrib.dll 2.0.78 at C:\Users\bruce\.nuget\packages\dapper.contrib\2.0.78\lib\net461\Dapper.Contrib.dll
+  - Dapper.dll 2.1.79 at C:\Users\bruce\.nuget\packages\dapper\2.1.79\lib\net461\Dapper.dll
+  - Microsoft.Bcl.AsyncInterfaces.dll 10.0.8 at C:\Users\bruce\.nuget\packages\microsoft.bcl.asyncinterfaces\10.0.8\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - mscorlib.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll
+  - Newtonsoft.Json.dll 13.0.4 at C:\Users\bruce\.nuget\packages\newtonsoft.json\13.0.4\lib\net45\Newtonsoft.Json.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.Runtime.CompilerServices.Unsafe.dll 6.1.2 at C:\Users\bruce\.nuget\packages\system.runtime.compilerservices.unsafe\6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll
+  - System.Threading.Tasks.Extensions.dll 4.6.3 at C:\Users\bruce\.nuget\packages\system.threading.tasks.extensions\4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\bruce\.nuget\packages\telerik.licensing\1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.WinControls.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.2.520 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.UI.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+  - TelerikCommon.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+  MachineId=LNizpxLTwCegOeDTpCQ9XZknyoA=
+
+[2026-06-27 22:34:22.950] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      Unique Products:
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20
+      Found a total of 1 referenced Telerik products for 
+
+[2026-06-27 22:34:22.979] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\kendo-ui-license.txt (NotAvailable)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\telerik-license.txt (LicenseFound)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: j*******@m***.n*******.e**.tw
+        - UsedId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        - LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        - IssuedAt: 2025/03/25 13:51:42
+        - Licenses
+          0) Perpetual BLAZOR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          1) Perpetual KENDOUIANGULAR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          2) Perpetual KENDOUICOMPLETE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          3) Perpetual KENDOUIMVC, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          4) Perpetual KENDOUIREACT, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          5) Perpetual KENDOUIVUE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          6) Perpetual MAUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          7) Perpetual RCAJAX, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          8) Perpetual RCWF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          9) Perpetual RCWPF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          10) Perpetual REPORTING, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          11) Perpetual REPORTSERVER, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          12) Perpetual UIASPCORE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          13) Perpetual UIXAM, expiration 2025/02/19 06:00:00, type: 'perpetual'
+          14) Perpetual WINUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          15) Usage UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3, LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881, type: 'usage'
+
+[2026-06-27 22:34:22.985] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODI1MTExNjU0LCJ1c2VySWQiOiJjNDYwMmRlZS01YTQxLTQ3MDgtOGM5NS01ZmI2ZTc4OWZhZjMiLCJsaWNlbnNlSWQiOiI5ZGQ2ZTEwOS1iM2M1LTRhZWItODU2Zi1jYjdmMjVlZTE4ODEifQ.zqhILy38CU1qCtJM3dgwGZEyMA_ZfvVgFVqF5b6jqnDmxKV3HcyYFWa4H6B2XRiiSyzmaR1MrLdAiaFVI4XCyocOoa-M_vBzxJ76vRs0yMlCKhZJwkmG7Lz48XyUW7Tss79KCVm3MYVN13UZrYxrHtZGoL4GH2d9cWgR2rX2WwYQIHi89oG9dUyua5IgzwvOlAAxxd3rwwCBpuf5GaB91gvHpNeoeAR-lrstV90oKal12CtVA9SXBqBO2bVI0bdXNEt3WLDwPPxotKhnVV244EWAinTYsvHxzYIC8t7LGv6dOhPHIWAc8CHGvEJCxNYq8sS1KRcbVhJXZAC-7ol_qA
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+
+[2026-06-27 22:34:22.988] [Low] OutputType: Library, ImportXamlTargets: True
+[2026-06-27 22:34:22.989] [Low] LicenseEvidence CodeGen: Up to date!
+[2026-06-27 22:34:22.998] [Low] 
+      Call-Home Telerik Products (1 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520
+
+[2026-06-27 22:34:22.998] [Low] 
+[2026-06-27 22:34:23.000] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-06-27 22:34:23.000] [Low] 
+[2026-06-27 22:34:23.034] [Low]   Report Telerik.Licensing
+        UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        Products
+        - LicenseUsed RCWF 2026.2.520.48 SKIPPED
+      Report finished in 00:00:00.0300351
+
+[2026-06-27 22:34:23.035] [Low]   Sending Telemetry...
+[2026-06-27 22:34:23.058] [Low]   Metrics done 00:00:00.0235508
+[2026-06-27 22:34:23.060] [Normal] Resolve Telerik Products. Done (00:00:00.1356835) for 
+[2026-06-27 22:34:23.288] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=CoreBase
+  MSBuildProjectDirectory=D:\Git\NovelDownload\CoreBase
+  MSBuildProjectExtension=.csproj
+  Language=C#
+  OutputPath=bin\Debug\
+  Platform=x86
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=Library
+  UseMaui=
+  NuGetPackageRoot=C:\Users\bruce\.nuget\packages\
+
+  PackageReferences
+  - Dapper 2.1.79
+  - Dapper.Contrib 2.0.78
+  - Newtonsoft.Json 13.0.4
+  - Telerik.Licensing 1.*
+  ReferencePaths
+  - Dapper.Contrib.dll 2.0.78 at C:\Users\bruce\.nuget\packages\dapper.contrib\2.0.78\lib\net461\Dapper.Contrib.dll
+  - Dapper.dll 2.1.79 at C:\Users\bruce\.nuget\packages\dapper\2.1.79\lib\net461\Dapper.dll
+  - Microsoft.Bcl.AsyncInterfaces.dll 10.0.8 at C:\Users\bruce\.nuget\packages\microsoft.bcl.asyncinterfaces\10.0.8\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - mscorlib.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll
+  - Newtonsoft.Json.dll 13.0.4 at C:\Users\bruce\.nuget\packages\newtonsoft.json\13.0.4\lib\net45\Newtonsoft.Json.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.Runtime.CompilerServices.Unsafe.dll 6.1.2 at C:\Users\bruce\.nuget\packages\system.runtime.compilerservices.unsafe\6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll
+  - System.Threading.Tasks.Extensions.dll 4.6.3 at C:\Users\bruce\.nuget\packages\system.threading.tasks.extensions\4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\bruce\.nuget\packages\telerik.licensing\1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.WinControls.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.2.520 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.UI.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+  - TelerikCommon.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+  MachineId=LNizpxLTwCegOeDTpCQ9XZknyoA=
+
+[2026-06-27 22:34:23.305] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      Unique Products:
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20
+      Found a total of 1 referenced Telerik products for 
+
+[2026-06-27 22:34:23.334] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\kendo-ui-license.txt (NotAvailable)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\telerik-license.txt (LicenseFound)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: j*******@m***.n*******.e**.tw
+        - UsedId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        - LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        - IssuedAt: 2025/03/25 13:51:42
+        - Licenses
+          0) Perpetual BLAZOR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          1) Perpetual KENDOUIANGULAR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          2) Perpetual KENDOUICOMPLETE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          3) Perpetual KENDOUIMVC, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          4) Perpetual KENDOUIREACT, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          5) Perpetual KENDOUIVUE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          6) Perpetual MAUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          7) Perpetual RCAJAX, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          8) Perpetual RCWF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          9) Perpetual RCWPF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          10) Perpetual REPORTING, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          11) Perpetual REPORTSERVER, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          12) Perpetual UIASPCORE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          13) Perpetual UIXAM, expiration 2025/02/19 06:00:00, type: 'perpetual'
+          14) Perpetual WINUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          15) Usage UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3, LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881, type: 'usage'
+
+[2026-06-27 22:34:23.340] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODI1MTExNjU0LCJ1c2VySWQiOiJjNDYwMmRlZS01YTQxLTQ3MDgtOGM5NS01ZmI2ZTc4OWZhZjMiLCJsaWNlbnNlSWQiOiI5ZGQ2ZTEwOS1iM2M1LTRhZWItODU2Zi1jYjdmMjVlZTE4ODEifQ.zqhILy38CU1qCtJM3dgwGZEyMA_ZfvVgFVqF5b6jqnDmxKV3HcyYFWa4H6B2XRiiSyzmaR1MrLdAiaFVI4XCyocOoa-M_vBzxJ76vRs0yMlCKhZJwkmG7Lz48XyUW7Tss79KCVm3MYVN13UZrYxrHtZGoL4GH2d9cWgR2rX2WwYQIHi89oG9dUyua5IgzwvOlAAxxd3rwwCBpuf5GaB91gvHpNeoeAR-lrstV90oKal12CtVA9SXBqBO2bVI0bdXNEt3WLDwPPxotKhnVV244EWAinTYsvHxzYIC8t7LGv6dOhPHIWAc8CHGvEJCxNYq8sS1KRcbVhJXZAC-7ol_qA
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+
+[2026-06-27 22:34:23.343] [Low] OutputType: Library, ImportXamlTargets: True
+[2026-06-27 22:34:23.344] [Low] LicenseEvidence CodeGen: Up to date!
+[2026-06-27 22:34:23.353] [Low] 
+      Call-Home Telerik Products (1 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520
+
+[2026-06-27 22:34:23.353] [Low] 
+[2026-06-27 22:34:23.356] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-06-27 22:34:23.356] [Low] 
+[2026-06-27 22:34:23.391] [Low]   Report Telerik.Licensing
+        UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        Products
+        - LicenseUsed RCWF 2026.2.520.48 SKIPPED
+      Report finished in 00:00:00.0320608
+
+[2026-06-27 22:34:23.393] [Low]   Sending Telemetry...
+[2026-06-27 22:34:23.415] [Low]   Metrics done 00:00:00.0221093
+[2026-06-27 22:34:23.417] [Normal] Resolve Telerik Products. Done (00:00:00.1378061) for 
+[2026-06-27 22:34:24.130] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=CoreBase
+  MSBuildProjectDirectory=D:\Git\NovelDownload\CoreBase
+  MSBuildProjectExtension=.csproj
+  Language=C#
+  OutputPath=bin\Debug\
+  Platform=x86
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=Library
+  UseMaui=
+  NuGetPackageRoot=C:\Users\bruce\.nuget\packages\
+
+  PackageReferences
+  - Dapper 2.1.79
+  - Dapper.Contrib 2.0.78
+  - Newtonsoft.Json 13.0.4
+  - Telerik.Licensing 1.*
+  ReferencePaths
+  - Dapper.Contrib.dll 2.0.78 at C:\Users\bruce\.nuget\packages\dapper.contrib\2.0.78\lib\net461\Dapper.Contrib.dll
+  - Dapper.dll 2.1.79 at C:\Users\bruce\.nuget\packages\dapper\2.1.79\lib\net461\Dapper.dll
+  - Microsoft.Bcl.AsyncInterfaces.dll 10.0.8 at C:\Users\bruce\.nuget\packages\microsoft.bcl.asyncinterfaces\10.0.8\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - mscorlib.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll
+  - Newtonsoft.Json.dll 13.0.4 at C:\Users\bruce\.nuget\packages\newtonsoft.json\13.0.4\lib\net45\Newtonsoft.Json.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.Runtime.CompilerServices.Unsafe.dll 6.1.2 at C:\Users\bruce\.nuget\packages\system.runtime.compilerservices.unsafe\6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll
+  - System.Threading.Tasks.Extensions.dll 4.6.3 at C:\Users\bruce\.nuget\packages\system.threading.tasks.extensions\4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\bruce\.nuget\packages\telerik.licensing\1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.WinControls.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.2.520 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.UI.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+  - TelerikCommon.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+  MachineId=LNizpxLTwCegOeDTpCQ9XZknyoA=
+
+[2026-06-27 22:34:24.144] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      Unique Products:
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20
+      Found a total of 1 referenced Telerik products for 
+
+[2026-06-27 22:34:24.167] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\kendo-ui-license.txt (NotAvailable)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\telerik-license.txt (LicenseFound)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: j*******@m***.n*******.e**.tw
+        - UsedId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        - LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        - IssuedAt: 2025/03/25 13:51:42
+        - Licenses
+          0) Perpetual BLAZOR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          1) Perpetual KENDOUIANGULAR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          2) Perpetual KENDOUICOMPLETE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          3) Perpetual KENDOUIMVC, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          4) Perpetual KENDOUIREACT, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          5) Perpetual KENDOUIVUE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          6) Perpetual MAUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          7) Perpetual RCAJAX, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          8) Perpetual RCWF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          9) Perpetual RCWPF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          10) Perpetual REPORTING, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          11) Perpetual REPORTSERVER, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          12) Perpetual UIASPCORE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          13) Perpetual UIXAM, expiration 2025/02/19 06:00:00, type: 'perpetual'
+          14) Perpetual WINUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          15) Usage UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3, LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881, type: 'usage'
+
+[2026-06-27 22:34:24.172] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODI1MTExNjU0LCJ1c2VySWQiOiJjNDYwMmRlZS01YTQxLTQ3MDgtOGM5NS01ZmI2ZTc4OWZhZjMiLCJsaWNlbnNlSWQiOiI5ZGQ2ZTEwOS1iM2M1LTRhZWItODU2Zi1jYjdmMjVlZTE4ODEifQ.zqhILy38CU1qCtJM3dgwGZEyMA_ZfvVgFVqF5b6jqnDmxKV3HcyYFWa4H6B2XRiiSyzmaR1MrLdAiaFVI4XCyocOoa-M_vBzxJ76vRs0yMlCKhZJwkmG7Lz48XyUW7Tss79KCVm3MYVN13UZrYxrHtZGoL4GH2d9cWgR2rX2WwYQIHi89oG9dUyua5IgzwvOlAAxxd3rwwCBpuf5GaB91gvHpNeoeAR-lrstV90oKal12CtVA9SXBqBO2bVI0bdXNEt3WLDwPPxotKhnVV244EWAinTYsvHxzYIC8t7LGv6dOhPHIWAc8CHGvEJCxNYq8sS1KRcbVhJXZAC-7ol_qA
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+
+[2026-06-27 22:34:24.174] [Low] OutputType: Library, ImportXamlTargets: True
+[2026-06-27 22:34:24.174] [Low] LicenseEvidence CodeGen: Up to date!
+[2026-06-27 22:34:24.190] [Low] 
+      Call-Home Telerik Products (1 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520
+
+[2026-06-27 22:34:24.191] [Low] 
+[2026-06-27 22:34:24.192] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-06-27 22:34:24.192] [Low] 
+[2026-06-27 22:34:24.242] [Low]   Report Telerik.Licensing
+        UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        Products
+        - LicenseUsed RCWF 2026.2.520.48 SKIPPED
+      Report finished in 00:00:00.0476316
+
+[2026-06-27 22:34:24.246] [Low]   Sending Telemetry...
+[2026-06-27 22:34:24.300] [Low]   Metrics done 00:00:00.0541591
+[2026-06-27 22:34:24.301] [Normal] Resolve Telerik Products. Done (00:00:00.1793393) for 
+[2026-06-27 22:34:54.550] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=CoreBase
+  MSBuildProjectDirectory=D:\Git\NovelDownload\CoreBase
+  MSBuildProjectExtension=.csproj
+  Language=C#
+  OutputPath=bin\Debug\
+  Platform=x86
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=Library
+  UseMaui=
+  NuGetPackageRoot=C:\Users\bruce\.nuget\packages\
+
+  PackageReferences
+  - Dapper 2.1.79
+  - Dapper.Contrib 2.0.78
+  - Newtonsoft.Json 13.0.4
+  - Telerik.Licensing 1.*
+  ReferencePaths
+  - Dapper.Contrib.dll 2.0.78 at C:\Users\bruce\.nuget\packages\dapper.contrib\2.0.78\lib\net461\Dapper.Contrib.dll
+  - Dapper.dll 2.1.79 at C:\Users\bruce\.nuget\packages\dapper\2.1.79\lib\net461\Dapper.dll
+  - Microsoft.Bcl.AsyncInterfaces.dll 10.0.8 at C:\Users\bruce\.nuget\packages\microsoft.bcl.asyncinterfaces\10.0.8\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - mscorlib.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll
+  - Newtonsoft.Json.dll 13.0.4 at C:\Users\bruce\.nuget\packages\newtonsoft.json\13.0.4\lib\net45\Newtonsoft.Json.dll
+  - System.ComponentModel.DataAnnotations.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.ComponentModel.DataAnnotations.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.Runtime.CompilerServices.Unsafe.dll 6.1.2 at C:\Users\bruce\.nuget\packages\system.runtime.compilerservices.unsafe\6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll
+  - System.Threading.Tasks.Extensions.dll 4.6.3 at C:\Users\bruce\.nuget\packages\system.threading.tasks.extensions\4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\bruce\.nuget\packages\telerik.licensing\1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.WinControls.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.2.520 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.UI.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+  - TelerikCommon.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+  MachineId=LNizpxLTwCegOeDTpCQ9XZknyoA=
+
+[2026-06-27 22:34:54.567] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      Unique Products:
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20
+      Found a total of 1 referenced Telerik products for 
+
+[2026-06-27 22:34:54.595] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\kendo-ui-license.txt (NotAvailable)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\telerik-license.txt (LicenseFound)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: j*******@m***.n*******.e**.tw
+        - UsedId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        - LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        - IssuedAt: 2025/03/25 13:51:42
+        - Licenses
+          0) Perpetual BLAZOR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          1) Perpetual KENDOUIANGULAR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          2) Perpetual KENDOUICOMPLETE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          3) Perpetual KENDOUIMVC, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          4) Perpetual KENDOUIREACT, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          5) Perpetual KENDOUIVUE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          6) Perpetual MAUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          7) Perpetual RCAJAX, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          8) Perpetual RCWF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          9) Perpetual RCWPF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          10) Perpetual REPORTING, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          11) Perpetual REPORTSERVER, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          12) Perpetual UIASPCORE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          13) Perpetual UIXAM, expiration 2025/02/19 06:00:00, type: 'perpetual'
+          14) Perpetual WINUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          15) Usage UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3, LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881, type: 'usage'
+
+[2026-06-27 22:34:54.601] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODI1MTExNjU0LCJ1c2VySWQiOiJjNDYwMmRlZS01YTQxLTQ3MDgtOGM5NS01ZmI2ZTc4OWZhZjMiLCJsaWNlbnNlSWQiOiI5ZGQ2ZTEwOS1iM2M1LTRhZWItODU2Zi1jYjdmMjVlZTE4ODEifQ.zqhILy38CU1qCtJM3dgwGZEyMA_ZfvVgFVqF5b6jqnDmxKV3HcyYFWa4H6B2XRiiSyzmaR1MrLdAiaFVI4XCyocOoa-M_vBzxJ76vRs0yMlCKhZJwkmG7Lz48XyUW7Tss79KCVm3MYVN13UZrYxrHtZGoL4GH2d9cWgR2rX2WwYQIHi89oG9dUyua5IgzwvOlAAxxd3rwwCBpuf5GaB91gvHpNeoeAR-lrstV90oKal12CtVA9SXBqBO2bVI0bdXNEt3WLDwPPxotKhnVV244EWAinTYsvHxzYIC8t7LGv6dOhPHIWAc8CHGvEJCxNYq8sS1KRcbVhJXZAC-7ol_qA
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+
+[2026-06-27 22:34:54.604] [Low] OutputType: Library, ImportXamlTargets: True
+[2026-06-27 22:34:54.605] [Low] LicenseEvidence CodeGen: Up to date!
+[2026-06-27 22:34:54.614] [Low] 
+      Call-Home Telerik Products (1 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520
+
+[2026-06-27 22:34:54.614] [Low] 
+[2026-06-27 22:34:54.616] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-06-27 22:34:54.616] [Low] 
+[2026-06-27 22:34:54.648] [Low]   Report Telerik.Licensing
+        UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        Products
+        - LicenseUsed RCWF 2026.2.520.48 SKIPPED
+      Report finished in 00:00:00.0285410
+
+[2026-06-27 22:34:54.651] [Low]   Sending Telemetry...
+[2026-06-27 22:34:54.673] [Low]   Metrics done 00:00:00.0220576
+[2026-06-27 22:34:54.675] [Normal] Resolve Telerik Products. Done (00:00:00.1348712) for 
+[2026-06-27 22:34:55.498] [Normal] Resolve Telerik Products.
+  MSBuildProjectName=CoreBase
+  MSBuildProjectDirectory=D:\Git\NovelDownload\CoreBase
+  MSBuildProjectExtension=.csproj
+  Language=C#
+  OutputPath=bin\Debug\
+  Platform=x86
+  TargetFramework=
+  TargetFrameworks=
+  TargetFrameworkVersion=v4.8
+  VisualStudioVersion=17.0
+  UsingMicrosoftNETSdk=
+  UsingMicrosoftNETSdkRazor=
+  UsingMicrosoftNETSdkWeb=
+  ImportXamlTargets=True
+  OutputType=Library
+  UseMaui=
+  NuGetPackageRoot=C:\Users\bruce\.nuget\packages\
+
+  PackageReferences
+  - Dapper 2.1.79
+  - Dapper.Contrib 2.0.78
+  - Newtonsoft.Json 13.0.4
+  - Telerik.Licensing 1.*
+  ReferencePaths
+  - Dapper.Contrib.dll 2.0.78 at C:\Users\bruce\.nuget\packages\dapper.contrib\2.0.78\lib\net461\Dapper.Contrib.dll
+  - Dapper.dll 2.1.79 at C:\Users\bruce\.nuget\packages\dapper\2.1.79\lib\net461\Dapper.dll
+  - Microsoft.Bcl.AsyncInterfaces.dll 10.0.8 at C:\Users\bruce\.nuget\packages\microsoft.bcl.asyncinterfaces\10.0.8\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll
+  - Microsoft.CSharp.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll
+  - mscorlib.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll
+  - Newtonsoft.Json.dll 13.0.4 at C:\Users\bruce\.nuget\packages\newtonsoft.json\13.0.4\lib\net45\Newtonsoft.Json.dll
+  - System.ComponentModel.DataAnnotations.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.ComponentModel.DataAnnotations.dll
+  - System.Core.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll
+  - System.Data.DataSetExtensions.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll
+  - System.Data.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll
+  - System.Deployment.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Deployment.dll
+  - System.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll
+  - System.Drawing.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll
+  - System.Runtime.CompilerServices.Unsafe.dll 6.1.2 at C:\Users\bruce\.nuget\packages\system.runtime.compilerservices.unsafe\6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll
+  - System.Threading.Tasks.Extensions.dll 4.6.3 at C:\Users\bruce\.nuget\packages\system.threading.tasks.extensions\4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll
+  - System.Windows.Forms.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll
+  - System.Xml.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll
+  - System.Xml.Linq.dll 4.8.3761 at C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll
+  - Telerik.Licensing.Runtime.dll 1.8.2 at C:\Users\bruce\.nuget\packages\telerik.licensing\1.8.2\lib\net462\Telerik.Licensing.Runtime.dll
+  - Telerik.WinControls.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+  - Telerik.WinControls.GridView.dll 2026.2.520 at C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+  - Telerik.WinControls.UI.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+  - TelerikCommon.dll 2026.2.520 at D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+  MachineId=LNizpxLTwCegOeDTpCQ9XZknyoA=
+
+[2026-06-27 22:34:55.512] [Low]   Looking for Telerik product metadata in referenced assemblies
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - C:\Program Files (x86)\Progress\Telerik UI for WinForms 2026 Q2\Bin48\Telerik.WinControls.GridView.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\Telerik.WinControls.UI.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      - D:\Git\NovelDownload\lib\RCWF\2026.2.520.48\TelerikCommon.dll
+        ProductCode: RCWF, LicenseDate: 2026-05-20, ProductName: Telerik UI for WinForms, ProductVersion: 2026.2.520.48, Flags: None
+      Unique Products:
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20
+      Found a total of 1 referenced Telerik products for 
+
+[2026-06-27 22:34:55.541] [Low]   Provision Licensing
+        Looking up license file...
+        - EnvironmentVariablePath: TELERIK_LICENSE_PATH (NotAvailable)
+        - EnvironmentVariable: TELERIK_LICENSE (NotAvailable)
+        - EnvironmentVariable: KENDO_UI_LICENSE (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\CoreBase\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\NovelDownload\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\Git\kendo-ui-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\telerik-license.txt (NotAvailable)
+        - RecursiveFilePath: D:\kendo-ui-license.txt (NotAvailable)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\telerik-license.txt (LicenseFound)
+        - UserDirectory: C:\Users\bruce\AppData\Roaming\Telerik\kendo-ui-license.txt (Skip)
+        LicenseKey
+        - AUD: j*******@m***.n*******.e**.tw
+        - UsedId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        - LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        - IssuedAt: 2025/03/25 13:51:42
+        - Licenses
+          0) Perpetual BLAZOR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          1) Perpetual KENDOUIANGULAR, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          2) Perpetual KENDOUICOMPLETE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          3) Perpetual KENDOUIMVC, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          4) Perpetual KENDOUIREACT, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          5) Perpetual KENDOUIVUE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          6) Perpetual MAUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          7) Perpetual RCAJAX, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          8) Perpetual RCWF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          9) Perpetual RCWPF, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          10) Perpetual REPORTING, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          11) Perpetual REPORTSERVER, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          12) Perpetual UIASPCORE, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          13) Perpetual UIXAM, expiration 2025/02/19 06:00:00, type: 'perpetual'
+          14) Perpetual WINUI, expiration 2027/11/01 23:27:34, type: 'perpetual'
+          15) Usage UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3, LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881, type: 'usage'
+
+[2026-06-27 22:34:55.545] [Low]   License Resolution
+        Messages
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+        JWTs
+          - eyJhbGciOiJSUzI1NiIsInR5cCI6IlRlbGVyaWsgTGljZW5zZSBFdmlkZW5jZSJ9.eyJjb2RlIjoiUkNXRiIsInR5cGUiOiJwZXJwZXR1YWwiLCJleHBpcmF0aW9uIjoxODI1MTExNjU0LCJ1c2VySWQiOiJjNDYwMmRlZS01YTQxLTQ3MDgtOGM5NS01ZmI2ZTc4OWZhZjMiLCJsaWNlbnNlSWQiOiI5ZGQ2ZTEwOS1iM2M1LTRhZWItODU2Zi1jYjdmMjVlZTE4ODEifQ.zqhILy38CU1qCtJM3dgwGZEyMA_ZfvVgFVqF5b6jqnDmxKV3HcyYFWa4H6B2XRiiSyzmaR1MrLdAiaFVI4XCyocOoa-M_vBzxJ76vRs0yMlCKhZJwkmG7Lz48XyUW7Tss79KCVm3MYVN13UZrYxrHtZGoL4GH2d9cWgR2rX2WwYQIHi89oG9dUyua5IgzwvOlAAxxd3rwwCBpuf5GaB91gvHpNeoeAR-lrstV90oKal12CtVA9SXBqBO2bVI0bdXNEt3WLDwPPxotKhnVV244EWAinTYsvHxzYIC8t7LGv6dOhPHIWAc8CHGvEJCxNYq8sS1KRcbVhJXZAC-7ol_qA
+        Licenses
+          - License OK for "Telerik UI for WinForms" (RCWF) 2026.2.520.48 @2026-05-20 - Perpetual, valid until 2027-11-01.
+
+[2026-06-27 22:34:55.548] [Low] OutputType: Library, ImportXamlTargets: True
+[2026-06-27 22:34:55.548] [Low] LicenseEvidence CodeGen: Up to date!
+[2026-06-27 22:34:55.556] [Low] 
+      Call-Home Telerik Products (1 for )
+      - "Telerik UI for WinForms" (RCWF) 2026.2.520
+
+[2026-06-27 22:34:55.556] [Low] 
+[2026-06-27 22:34:55.558] [Low] 
+      Call-Home Telerik Features (0 for )
+
+[2026-06-27 22:34:55.558] [Low] 
+[2026-06-27 22:34:55.591] [Low]   Report Telerik.Licensing
+        UserId: c4602dee-5a41-4708-8c95-5fb6e789faf3
+        LicenseId: 9dd6e109-b3c5-4aeb-856f-cb7f25ee1881
+        Products
+        - LicenseUsed RCWF 2026.2.520.48 SKIPPED
+      Report finished in 00:00:00.0310747
+
+[2026-06-27 22:34:55.592] [Low]   Sending Telemetry...
+[2026-06-27 22:34:55.617] [Low]   Metrics done 00:00:00.0250660
+[2026-06-27 22:34:55.620] [Normal] Resolve Telerik Products. Done (00:00:00.1298497) for 
