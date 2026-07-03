@@ -2,11 +2,16 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Text.RegularExpressions;
+using CoreBase.Utilities;
+using Newtonsoft.Json;
+using Oracle.ManagedDataAccess.Client;
+using System.Runtime.CompilerServices;
 
 namespace CoreBase.Help
 {

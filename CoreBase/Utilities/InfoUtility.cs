@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Xml;
+using CoreBase.Help;
+using Newtonsoft.Json;
+using static CoreBase.Help.EnumUtility;
 
 namespace CoreBase.Utilities
 {
@@ -20,7 +24,7 @@ namespace CoreBase.Utilities
         /// <summary>
         /// 院區
         /// </summary>
-        public HISLOCATION HISLOCATION { get; set; } = HISLOCATION.NeiHu;
+        public EnumUtility.HISLOCATION HISLOCATION { get; set; } = HISLOCATION.NeiHu;
 
         /// <summary>
         /// 登入時間
@@ -70,18 +74,18 @@ namespace CoreBase.Utilities
         /// <summary>
         /// Web Domain
         /// </summary>
-        public string WebDomain { get; set; } = EnvironmentUrlType.Web_Developed.GetEnumDescription();
+        public string WebDomain { get; set; } = EnumUtility.EnvironmentUrlType.Web_Developed.GetEnumDescription();
 
         /// <summary>
         /// API Domain
         /// </summary>
-        public string APIDomain { get; set; } = EnvironmentUrlType.Web_Developed.GetEnumDescription();
+        public string APIDomain { get; set; } = EnumUtility.EnvironmentUrlType.Web_Developed.GetEnumDescription();
 
         /// <summary>
         /// Dmain List
         /// first: WebDomain, Second: APIDomain
         /// </summary>
-        public List<string> DomainList { get; set; } = new List<string> { EnvironmentUrlType.Web_Online_LoadBalance.GetEnumDescription(), EnvironmentUrlType.API_Online_LoadBalance.GetEnumDescription(), EnvironmentUrlType.IPD_API_Online_LoadBalance.GetEnumDescription() };
+        public List<string> DomainList { get; set; } = new List<string> { EnumUtility.EnvironmentUrlType.Web_Online_LoadBalance.GetEnumDescription(), EnumUtility.EnvironmentUrlType.API_Online_LoadBalance.GetEnumDescription(), EnumUtility.EnvironmentUrlType.IPD_API_Online_LoadBalance.GetEnumDescription() };
 
         /// <summary>
         /// 執行環境
@@ -291,12 +295,12 @@ namespace CoreBase.Utilities
                                             UserId = xml?.tb_inf.USER?.ToUpper();
                                         }
 
-                                        if (YesNoFlag.N.ToString().Equals(xml.tb_inf.TESTMODE))
+                                        if (EnumUtility.YesNoFlag.N.ToString().Equals(xml.tb_inf.TESTMODE))
                                         {
                                             TestMode = false;
                                         }
 
-                                        if (YesNoFlag.N.ToString().Equals(xml.tb_inf.TESTMODE2))
+                                        if (EnumUtility.YesNoFlag.N.ToString().Equals(xml.tb_inf.TESTMODE2))
                                         {
                                             TestMode2 = false;
                                         }
@@ -316,17 +320,17 @@ namespace CoreBase.Utilities
                                             IP = xml.tb_inf.IP;
                                         }
 
-                                        if (YesNoFlag.N.ToString().Equals(xml.tb_inf.TESTAP))
+                                        if (EnumUtility.YesNoFlag.N.ToString().Equals(xml.tb_inf.TESTAP))
                                         {
                                             TestAp = false;
                                         }
 
-                                        if (YesNoFlag.N.ToString().Equals(xml.tb_inf.TESTAP2))
+                                        if (EnumUtility.YesNoFlag.N.ToString().Equals(xml.tb_inf.TESTAP2))
                                         {
                                             TestAp2 = false;
                                         }
 
-                                        if (YesNoFlag.Y.ToString().Equals(xml.tb_inf.HOMECARE))
+                                        if (EnumUtility.YesNoFlag.Y.ToString().Equals(xml.tb_inf.HOMECARE))
                                         {
                                             HomeCare = true;
                                         }
@@ -380,9 +384,9 @@ namespace CoreBase.Utilities
                     if (HomeCare)
                     {
                         EnvironmentType = EnvironmentType.Offline;
-                        WebDomain = EnvironmentUrlType.Web_Online.GetEnumDescription();
-                        APIDomain = EnvironmentUrlType.Web_Online.GetEnumDescription();
-                        DomainList = new List<string> { EnvironmentUrlType.Web_Online_LoadBalance.GetEnumDescription(), EnvironmentUrlType.API_Online_LoadBalance.GetEnumDescription(), EnvironmentUrlType.IPD_API_Online_LoadBalance.GetEnumDescription() };
+                        WebDomain = EnumUtility.EnvironmentUrlType.Web_Online.GetEnumDescription();
+                        APIDomain = EnumUtility.EnvironmentUrlType.Web_Online.GetEnumDescription();
+                        DomainList = new List<string> { EnumUtility.EnvironmentUrlType.Web_Online_LoadBalance.GetEnumDescription(), EnumUtility.EnvironmentUrlType.API_Online_LoadBalance.GetEnumDescription(), EnumUtility.EnvironmentUrlType.IPD_API_Online_LoadBalance.GetEnumDescription() };
                         OVERWRITE_TSGHXML_CONTENT(EnvironmentType);
                     }
                     else
@@ -459,9 +463,9 @@ namespace CoreBase.Utilities
                             case "Y|N|N|N": // 項次7
                                             // 正式區
                                 EnvironmentType = EnvironmentType.Online;
-                                WebDomain = EnvironmentUrlType.Web_Online.GetEnumDescription();
-                                APIDomain = EnvironmentUrlType.Web_Online.GetEnumDescription();
-                                DomainList = new List<string> { EnvironmentUrlType.Web_Online_LoadBalance.GetEnumDescription(), EnvironmentUrlType.API_Online_LoadBalance.GetEnumDescription(), EnvironmentUrlType.IPD_API_Online_LoadBalance.GetEnumDescription() };
+                                WebDomain = EnumUtility.EnvironmentUrlType.Web_Online.GetEnumDescription();
+                                APIDomain = EnumUtility.EnvironmentUrlType.Web_Online.GetEnumDescription();
+                                DomainList = new List<string> { EnumUtility.EnvironmentUrlType.Web_Online_LoadBalance.GetEnumDescription(), EnumUtility.EnvironmentUrlType.API_Online_LoadBalance.GetEnumDescription(), EnumUtility.EnvironmentUrlType.IPD_API_Online_LoadBalance.GetEnumDescription() };
                                 break;
 
                             case "N|N|N|Y": // 項次2
@@ -469,9 +473,9 @@ namespace CoreBase.Utilities
                             case "Y|N|N|Y": // 項次9
                                             // 平測區
                                 EnvironmentType = EnvironmentType.Formal;
-                                WebDomain = EnvironmentUrlType.Web_Formal.GetEnumDescription();
-                                APIDomain = EnvironmentUrlType.Web_Formal.GetEnumDescription();
-                                DomainList = new List<string> { EnvironmentUrlType.Web_Formal_LoadBalance.GetEnumDescription(), EnvironmentUrlType.API_Formal_LoadBalance.GetEnumDescription(), EnvironmentUrlType.IPD_API_Formal_LoadBalance.GetEnumDescription() };
+                                WebDomain = EnumUtility.EnvironmentUrlType.Web_Formal.GetEnumDescription();
+                                APIDomain = EnumUtility.EnvironmentUrlType.Web_Formal.GetEnumDescription();
+                                DomainList = new List<string> { EnumUtility.EnvironmentUrlType.Web_Formal_LoadBalance.GetEnumDescription(), EnumUtility.EnvironmentUrlType.API_Formal_LoadBalance.GetEnumDescription(), EnumUtility.EnvironmentUrlType.IPD_API_Formal_LoadBalance.GetEnumDescription() };
                                 break;
 
                             case "N|Y|N|N": // 項次3
@@ -479,17 +483,17 @@ namespace CoreBase.Utilities
                             case "Y|Y|N|N": // 項次8
                                             // 測試區(開發區)
                                 EnvironmentType = EnvironmentType.HIS2USER2;
-                                WebDomain = EnvironmentUrlType.Web_Developed.GetEnumDescription();
-                                APIDomain = EnvironmentUrlType.Web_Developed.GetEnumDescription();
-                                DomainList = new List<string> { EnvironmentUrlType.Web_Formal_LoadBalance.GetEnumDescription(), EnvironmentUrlType.API_Formal_LoadBalance.GetEnumDescription(), EnvironmentUrlType.IPD_API_Formal_LoadBalance.GetEnumDescription() };
+                                WebDomain = EnumUtility.EnvironmentUrlType.Web_Developed.GetEnumDescription();
+                                APIDomain = EnumUtility.EnvironmentUrlType.Web_Developed.GetEnumDescription();
+                                DomainList = new List<string> { EnumUtility.EnvironmentUrlType.Web_Formal_LoadBalance.GetEnumDescription(), EnumUtility.EnvironmentUrlType.API_Formal_LoadBalance.GetEnumDescription(), EnumUtility.EnvironmentUrlType.IPD_API_Formal_LoadBalance.GetEnumDescription() };
                                 break;
                             default:
 #if DEBUG
                                 //使用平測區, 且更新至XML中
                                 EnvironmentType = EnvironmentType.Formal;
-                                WebDomain = EnvironmentUrlType.Web_Formal.GetEnumDescription();
-                                APIDomain = EnvironmentUrlType.Web_Formal.GetEnumDescription();
-                                DomainList = new List<string> { EnvironmentUrlType.Web_Formal_LoadBalance.GetEnumDescription(), EnvironmentUrlType.API_Formal_LoadBalance.GetEnumDescription(), EnvironmentUrlType.IPD_API_Formal_LoadBalance.GetEnumDescription() };
+                                WebDomain = EnumUtility.EnvironmentUrlType.Web_Formal.GetEnumDescription();
+                                APIDomain = EnumUtility.EnvironmentUrlType.Web_Formal.GetEnumDescription();
+                                DomainList = new List<string> { EnumUtility.EnvironmentUrlType.Web_Formal_LoadBalance.GetEnumDescription(), EnumUtility.EnvironmentUrlType.API_Formal_LoadBalance.GetEnumDescription(), EnumUtility.EnvironmentUrlType.IPD_API_Formal_LoadBalance.GetEnumDescription() };
                                 OVERWRITE_TSGHXML_CONTENT(EnvironmentType);
 
 #else
@@ -616,7 +620,7 @@ namespace CoreBase.Utilities
                                             switch (NAME)
                                             {
                                                 case nameof(LoginInfo_Public.tb_inf.HISLOCATION):
-                                                    if (VALUE is HISLOCATION hislocation)
+                                                    if (VALUE is EnumUtility.HISLOCATION hislocation)
                                                     {
                                                         switch (hislocation)
                                                         {
@@ -713,10 +717,10 @@ namespace CoreBase.Utilities
                                                     {
                                                         switch (enumValue1)
                                                         {
-                                                            case YesNoFlag.Y:
+                                                            case EnumUtility.YesNoFlag.Y:
                                                                 xml.tb_inf.HOMECARE = EnumUtility.YesNoFlag.Y.ToString();
                                                                 break;
-                                                            case YesNoFlag.N:
+                                                            case EnumUtility.YesNoFlag.N:
                                                                 xml.tb_inf.HOMECARE = EnumUtility.YesNoFlag.N.ToString();
                                                                 break;
                                                         }
@@ -725,10 +729,10 @@ namespace CoreBase.Utilities
                                                     {
                                                         switch (enumValue2)
                                                         {
-                                                            case CancelFlag.Y:
+                                                            case EnumUtility.CancelFlag.Y:
                                                                 xml.tb_inf.HOMECARE = EnumUtility.YesNoFlag.Y.ToString();
                                                                 break;
-                                                            case CancelFlag.N:
+                                                            case EnumUtility.CancelFlag.N:
                                                                 xml.tb_inf.HOMECARE = EnumUtility.YesNoFlag.N.ToString();
                                                                 break;
                                                         }
@@ -740,7 +744,7 @@ namespace CoreBase.Utilities
                                                     }
                                                     break;
                                                 case nameof(EnvironmentType):
-                                                    if (VALUE is EnvironmentType environmentType)
+                                                    if (VALUE is EnumUtility.EnvironmentType environmentType)
                                                     {
                                                         switch (environmentType)
                                                         {
@@ -896,7 +900,7 @@ namespace CoreBase.Utilities
         /// </summary>
         /// <param name="environmentType">欲變更之連線區域</param>
         /// <returns>ServiceResult</returns>
-        public ServiceResult OVERWRITE_TSGHXML_CONTENT(EnvironmentType environmentType)
+        public ServiceResult OVERWRITE_TSGHXML_CONTENT(EnumUtility.EnvironmentType environmentType)
         {
             return OVERWRITE_TSGHXML_CONTENT_INTERFACE(nameof(EnvironmentType), environmentType);
         }

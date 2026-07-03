@@ -12,6 +12,7 @@
     <RootNamespace>CoreBase</RootNamespace>
     <AssemblyName>CoreBase</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
@@ -55,7 +56,12 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -85,12 +91,31 @@
     <PackageReference Include="Dapper.Contrib">
       <Version>2.0.78</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client">
+      <Version>6.0.0</Version>
+    </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
       <Version>13.0.4</Version>
+    </PackageReference>
+    <PackageReference Include="Oracle.ManagedDataAccess">
+      <Version>23.26.200</Version>
+    </PackageReference>
+    <PackageReference Include="System.Memory">
+      <Version>4.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe">
+      <Version>6.1.2</Version>
+    </PackageReference>
+    <PackageReference Include="System.ValueTuple">
+      <Version>4.6.2</Version>
     </PackageReference>
     <PackageReference Include="Telerik.Licensing" Version="1.*" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DB\DBUtil.cs" />
+    <Compile Include="DB\DBUtilSqlServer.cs" />
+    <Compile Include="DB\DBUtilSybase.cs" />
+    <Compile Include="DB\ORACLE_TABLE_SCHEMA.cs" />
     <Compile Include="Help\AttributesHelper.cs" />
     <Compile Include="Help\BooleanExtensions.cs" />
     <Compile Include="Help\ConvertExtensions.cs" />
@@ -121,6 +146,7 @@
     <Compile Include="Help\TriCommunicationHelper.cs" />
     <Compile Include="Help\TrieExtensions.cs" />
     <Compile Include="Help\XmlHelp.cs" />
+    <Compile Include="IsExternalInit.cs" />
     <Compile Include="Utilities\ApiResult.cs" />
     <Compile Include="Utilities\BaseConvert.cs" />
     <Compile Include="Utilities\InfoUtility.cs" />

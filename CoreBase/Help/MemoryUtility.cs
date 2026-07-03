@@ -7,6 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime;
 using System.Windows.Forms;
+using CoreBase.Utilities;
 
 namespace CoreBase.Help
 {

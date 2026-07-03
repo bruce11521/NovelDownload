@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Net.NetworkInformation;
 using System.Net.Security;
 using System.Net.Sockets;
@@ -9,6 +10,8 @@ using System.Security.Authentication;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using CoreBase.Utilities;
+using Newtonsoft.Json;
 
 namespace CoreBase.Help
 {
@@ -886,7 +889,7 @@ namespace CoreBase.Help
                 }
                 else
                 {
-                    var ip = NetworkInterface.GetAllNetworkInterfaces()
+                    var ipInfo = NetworkInterface.GetAllNetworkInterfaces()
                         .Where(x => x.OperationalStatus == OperationalStatus.Up &&
                                     x.NetworkInterfaceType != NetworkInterfaceType.Loopback)// 檢查網卡是否啟用
                         .SelectMany(x => x.GetIPProperties().UnicastAddresses)
@@ -895,7 +898,7 @@ namespace CoreBase.Help
                             !ip.Address.ToString().StartsWith("169.254"))//避免取得APIPA
                         .Select(x => x.Address.ToString())
                         ?.FirstOrDefault() ?? string.Empty;
-                    returnResult.Data = ip;
+                    returnResult.Data = ipInfo;
                     returnResult.Message = "內網IP取得成功!";
                 }
                 returnResult.IsOk = true;

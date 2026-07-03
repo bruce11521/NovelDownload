@@ -35,11 +35,11 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.radGroupBox5 = new Telerik.WinControls.UI.RadGroupBox();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
-            this.radTextBoxControl5 = new Telerik.WinControls.UI.RadTextBoxControl();
+            this.radTextBoxControl_NovelTotalChapter = new Telerik.WinControls.UI.RadTextBoxControl();
             this.radLabel3 = new Telerik.WinControls.UI.RadLabel();
             this.radButton_GetNovel = new Telerik.WinControls.UI.RadButton();
             this.radLabel4 = new Telerik.WinControls.UI.RadLabel();
-            this.radTextBoxControl4 = new Telerik.WinControls.UI.RadTextBoxControl();
+            this.radTextBoxControl_NovelName = new Telerik.WinControls.UI.RadTextBoxControl();
             this.radGroupBox3 = new Telerik.WinControls.UI.RadGroupBox();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.radioButton_DownloadMode_Auto = new System.Windows.Forms.RadioButton();
@@ -51,8 +51,8 @@
             this.radGroupBox4 = new Telerik.WinControls.UI.RadGroupBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
-            this.radTextBoxControl2 = new Telerik.WinControls.UI.RadTextBoxControl();
-            this.radTextBoxControl3 = new Telerik.WinControls.UI.RadTextBoxControl();
+            this.radTextBoxControl_BeginChatper = new Telerik.WinControls.UI.RadTextBoxControl();
+            this.radTextBoxControl_EndChatper = new Telerik.WinControls.UI.RadTextBoxControl();
             this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
             this.radCollapsiblePanel1 = new Telerik.WinControls.UI.RadCollapsiblePanel();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
@@ -61,8 +61,8 @@
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
             this.radButton_ClearLog = new Telerik.WinControls.UI.RadButton();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-            this.radButton2 = new Telerik.WinControls.UI.RadButton();
-            this.radButton3 = new Telerik.WinControls.UI.RadButton();
+            this.radButton_Download = new Telerik.WinControls.UI.RadButton();
+            this.radButton_CancelDownload = new Telerik.WinControls.UI.RadButton();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radPageView_Main)).BeginInit();
             this.radPageView_Main.SuspendLayout();
@@ -73,11 +73,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox5)).BeginInit();
             this.radGroupBox5.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl_NovelTotalChapter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton_GetNovel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl_NovelName)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox3)).BeginInit();
             this.radGroupBox3.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
@@ -90,8 +90,8 @@
             this.radGroupBox4.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl_BeginChatper)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl_EndChatper)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radCollapsiblePanel1)).BeginInit();
             this.radCollapsiblePanel1.PanelContainer.SuspendLayout();
@@ -103,8 +103,8 @@
             this.tableLayoutPanel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radButton_ClearLog)).BeginInit();
             this.tableLayoutPanel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton_Download)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton_CancelDownload)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -199,11 +199,11 @@
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
-            this.tableLayoutPanel6.Controls.Add(this.radTextBoxControl5, 4, 0);
+            this.tableLayoutPanel6.Controls.Add(this.radTextBoxControl_NovelTotalChapter, 4, 0);
             this.tableLayoutPanel6.Controls.Add(this.radLabel3, 1, 0);
             this.tableLayoutPanel6.Controls.Add(this.radButton_GetNovel, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.radLabel4, 3, 0);
-            this.tableLayoutPanel6.Controls.Add(this.radTextBoxControl4, 2, 0);
+            this.tableLayoutPanel6.Controls.Add(this.radTextBoxControl_NovelName, 2, 0);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel6.Location = new System.Drawing.Point(2, 24);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
@@ -212,14 +212,14 @@
             this.tableLayoutPanel6.Size = new System.Drawing.Size(601, 38);
             this.tableLayoutPanel6.TabIndex = 0;
             // 
-            // radTextBoxControl5
+            // radTextBoxControl_NovelTotalChapter
             // 
-            this.radTextBoxControl5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radTextBoxControl5.Font = new System.Drawing.Font("YaHei Consolas Hybrid", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radTextBoxControl5.Location = new System.Drawing.Point(494, 3);
-            this.radTextBoxControl5.Name = "radTextBoxControl5";
-            this.radTextBoxControl5.Size = new System.Drawing.Size(104, 32);
-            this.radTextBoxControl5.TabIndex = 5;
+            this.radTextBoxControl_NovelTotalChapter.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radTextBoxControl_NovelTotalChapter.Font = new System.Drawing.Font("YaHei Consolas Hybrid", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radTextBoxControl_NovelTotalChapter.Location = new System.Drawing.Point(494, 3);
+            this.radTextBoxControl_NovelTotalChapter.Name = "radTextBoxControl_NovelTotalChapter";
+            this.radTextBoxControl_NovelTotalChapter.Size = new System.Drawing.Size(104, 32);
+            this.radTextBoxControl_NovelTotalChapter.TabIndex = 5;
             // 
             // radLabel3
             // 
@@ -251,14 +251,14 @@
             this.radLabel4.TabIndex = 3;
             this.radLabel4.Text = "總章節數：";
             // 
-            // radTextBoxControl4
+            // radTextBoxControl_NovelName
             // 
-            this.radTextBoxControl4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radTextBoxControl4.Font = new System.Drawing.Font("YaHei Consolas Hybrid", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radTextBoxControl4.Location = new System.Drawing.Point(223, 3);
-            this.radTextBoxControl4.Name = "radTextBoxControl4";
-            this.radTextBoxControl4.Size = new System.Drawing.Size(165, 32);
-            this.radTextBoxControl4.TabIndex = 4;
+            this.radTextBoxControl_NovelName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radTextBoxControl_NovelName.Font = new System.Drawing.Font("YaHei Consolas Hybrid", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radTextBoxControl_NovelName.Location = new System.Drawing.Point(223, 3);
+            this.radTextBoxControl_NovelName.Name = "radTextBoxControl_NovelName";
+            this.radTextBoxControl_NovelName.Size = new System.Drawing.Size(165, 32);
+            this.radTextBoxControl_NovelName.TabIndex = 4;
             // 
             // radGroupBox3
             // 
@@ -387,8 +387,8 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Controls.Add(this.radLabel1, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.radTextBoxControl2, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.radTextBoxControl3, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.radTextBoxControl_BeginChatper, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.radTextBoxControl_EndChatper, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.radLabel2, 0, 1);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(2, 24);
@@ -411,23 +411,23 @@
             this.radLabel1.TabIndex = 0;
             this.radLabel1.Text = "起始章節";
             // 
-            // radTextBoxControl2
+            // radTextBoxControl_BeginChatper
             // 
-            this.radTextBoxControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radTextBoxControl2.Font = new System.Drawing.Font("YaHei Consolas Hybrid", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radTextBoxControl2.Location = new System.Drawing.Point(103, 3);
-            this.radTextBoxControl2.Name = "radTextBoxControl2";
-            this.radTextBoxControl2.Size = new System.Drawing.Size(102, 28);
-            this.radTextBoxControl2.TabIndex = 1;
+            this.radTextBoxControl_BeginChatper.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radTextBoxControl_BeginChatper.Font = new System.Drawing.Font("YaHei Consolas Hybrid", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radTextBoxControl_BeginChatper.Location = new System.Drawing.Point(103, 3);
+            this.radTextBoxControl_BeginChatper.Name = "radTextBoxControl_BeginChatper";
+            this.radTextBoxControl_BeginChatper.Size = new System.Drawing.Size(102, 28);
+            this.radTextBoxControl_BeginChatper.TabIndex = 1;
             // 
-            // radTextBoxControl3
+            // radTextBoxControl_EndChatper
             // 
-            this.radTextBoxControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radTextBoxControl3.Font = new System.Drawing.Font("YaHei Consolas Hybrid", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radTextBoxControl3.Location = new System.Drawing.Point(103, 37);
-            this.radTextBoxControl3.Name = "radTextBoxControl3";
-            this.radTextBoxControl3.Size = new System.Drawing.Size(102, 28);
-            this.radTextBoxControl3.TabIndex = 2;
+            this.radTextBoxControl_EndChatper.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radTextBoxControl_EndChatper.Font = new System.Drawing.Font("YaHei Consolas Hybrid", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radTextBoxControl_EndChatper.Location = new System.Drawing.Point(103, 37);
+            this.radTextBoxControl_EndChatper.Name = "radTextBoxControl_EndChatper";
+            this.radTextBoxControl_EndChatper.Size = new System.Drawing.Size(102, 28);
+            this.radTextBoxControl_EndChatper.TabIndex = 2;
             // 
             // radLabel2
             // 
@@ -525,8 +525,8 @@
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 120F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.Controls.Add(this.radButton2, 1, 0);
-            this.tableLayoutPanel7.Controls.Add(this.radButton3, 3, 0);
+            this.tableLayoutPanel7.Controls.Add(this.radButton_Download, 1, 0);
+            this.tableLayoutPanel7.Controls.Add(this.radButton_CancelDownload, 3, 0);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 626);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
@@ -536,25 +536,25 @@
             this.tableLayoutPanel7.Size = new System.Drawing.Size(1086, 41);
             this.tableLayoutPanel7.TabIndex = 1;
             // 
-            // radButton2
+            // radButton_Download
             // 
-            this.radButton2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radButton2.Font = new System.Drawing.Font("YaHei Consolas Hybrid", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radButton2.Location = new System.Drawing.Point(416, 3);
-            this.radButton2.Name = "radButton2";
-            this.radButton2.Size = new System.Drawing.Size(114, 35);
-            this.radButton2.TabIndex = 3;
-            this.radButton2.Text = "開始下載";
+            this.radButton_Download.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radButton_Download.Font = new System.Drawing.Font("YaHei Consolas Hybrid", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radButton_Download.Location = new System.Drawing.Point(416, 3);
+            this.radButton_Download.Name = "radButton_Download";
+            this.radButton_Download.Size = new System.Drawing.Size(114, 35);
+            this.radButton_Download.TabIndex = 3;
+            this.radButton_Download.Text = "開始下載";
             // 
-            // radButton3
+            // radButton_CancelDownload
             // 
-            this.radButton3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radButton3.Font = new System.Drawing.Font("YaHei Consolas Hybrid", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radButton3.Location = new System.Drawing.Point(556, 3);
-            this.radButton3.Name = "radButton3";
-            this.radButton3.Size = new System.Drawing.Size(114, 35);
-            this.radButton3.TabIndex = 4;
-            this.radButton3.Text = "取消下載";
+            this.radButton_CancelDownload.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radButton_CancelDownload.Font = new System.Drawing.Font("YaHei Consolas Hybrid", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radButton_CancelDownload.Location = new System.Drawing.Point(556, 3);
+            this.radButton_CancelDownload.Name = "radButton_CancelDownload";
+            this.radButton_CancelDownload.Size = new System.Drawing.Size(114, 35);
+            this.radButton_CancelDownload.TabIndex = 4;
+            this.radButton_CancelDownload.Text = "取消下載";
             // 
             // MainForm
             // 
@@ -577,11 +577,11 @@
             this.radGroupBox5.ResumeLayout(false);
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl_NovelTotalChapter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton_GetNovel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl_NovelName)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox3)).EndInit();
             this.radGroupBox3.ResumeLayout(false);
             this.tableLayoutPanel5.ResumeLayout(false);
@@ -596,8 +596,8 @@
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl_BeginChatper)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radTextBoxControl_EndChatper)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).EndInit();
             this.radCollapsiblePanel1.PanelContainer.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.radCollapsiblePanel1)).EndInit();
@@ -609,8 +609,8 @@
             this.tableLayoutPanel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.radButton_ClearLog)).EndInit();
             this.tableLayoutPanel7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.radButton2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton_Download)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton_CancelDownload)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -627,8 +627,8 @@
         private Telerik.WinControls.UI.RadGroupBox radGroupBox2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private Telerik.WinControls.UI.RadLabel radLabel1;
-        private Telerik.WinControls.UI.RadTextBoxControl radTextBoxControl2;
-        private Telerik.WinControls.UI.RadTextBoxControl radTextBoxControl3;
+        private Telerik.WinControls.UI.RadTextBoxControl radTextBoxControl_BeginChatper;
+        private Telerik.WinControls.UI.RadTextBoxControl radTextBoxControl_EndChatper;
         private Telerik.WinControls.UI.RadLabel radLabel2;
         private Telerik.WinControls.UI.RadGroupBox radGroupBox3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
@@ -637,15 +637,15 @@
         private System.Windows.Forms.RadioButton radioButton_DownloadMode_Auto;
         private Telerik.WinControls.UI.RadGroupBox radGroupBox5;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
-        private Telerik.WinControls.UI.RadTextBoxControl radTextBoxControl5;
+        private Telerik.WinControls.UI.RadTextBoxControl radTextBoxControl_NovelTotalChapter;
         private Telerik.WinControls.UI.RadLabel radLabel3;
         private Telerik.WinControls.UI.RadButton radButton_GetNovel;
         private Telerik.WinControls.UI.RadLabel radLabel4;
-        private Telerik.WinControls.UI.RadTextBoxControl radTextBoxControl4;
+        private Telerik.WinControls.UI.RadTextBoxControl radTextBoxControl_NovelName;
         private Telerik.WinControls.UI.RadGroupBox radGroupBox4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
-        private Telerik.WinControls.UI.RadButton radButton2;
-        private Telerik.WinControls.UI.RadButton radButton3;
+        private Telerik.WinControls.UI.RadButton radButton_Download;
+        private Telerik.WinControls.UI.RadButton radButton_CancelDownload;
         private Telerik.WinControls.UI.RadPanel radPanel_DownloadInfo;
         private Telerik.WinControls.UI.RadCollapsiblePanel radCollapsiblePanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;

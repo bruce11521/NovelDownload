@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CoreBase.Help;
+using System;
 
 namespace CoreBase.Utilities
 {
@@ -15,14 +16,14 @@ namespace CoreBase.Utilities
         public static string GetGenderDisplay(this int value)
         {
             var result = string.Empty;
-            var dic = EnumExtensions.GetDictionary<Sex>();
+            var dic = EnumExtensions.GetDictionary<EnumUtility.Sex>();
             if (dic.TryGetValue(value, out string display))
             {
                 result = display;
             }
             else
             {
-                result = Sex.NonBinary.GetEnumDisplayName();
+                result = EnumUtility.Sex.NonBinary.GetEnumDisplayName();
             }
 
             return result;
@@ -37,7 +38,7 @@ namespace CoreBase.Utilities
         public static string GetGenderDisplay(this string value)
         {
             var result = string.Empty;
-            var dic = EnumExtensions.GetDictionaryString<Sex>();
+            var dic = EnumExtensions.GetDictionaryString<EnumUtility.Sex>();
             if (int.TryParse(value, out int intValue))
             {
                 result = intValue.GetGenderDisplay();
@@ -58,7 +59,7 @@ namespace CoreBase.Utilities
         public static string GetVisitKindDisplay(this int value)
         {
             var result = string.Empty;
-            var dic = EnumExtensions.GetDictionary<VISITKIND>();
+            var dic = EnumExtensions.GetDictionary<EnumUtility.VISITKIND>();
             if (dic.TryGetValue(value, out string display))
             {
                 result = display;
@@ -76,7 +77,7 @@ namespace CoreBase.Utilities
         public static string GetVisitKindDisplay(this string value)
         {
             var result = string.Empty;
-            var dic = EnumExtensions.GetDictionaryString<VISITKIND>();
+            var dic = EnumExtensions.GetDictionaryString<EnumUtility.VISITKIND>();
             if (int.TryParse(value, out int intValue))
             {
                 result = intValue.GetVisitKindDisplay();
@@ -117,7 +118,7 @@ namespace CoreBase.Utilities
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>
-        public static string ToNumberStringOrderCode(this OrderCodeType value) 
+        public static string ToNumberStringOrderCode(this EnumUtility.OrderCodeType value) 
         {
             return value.ToNumberString().PadLeft(2, '0');
         }

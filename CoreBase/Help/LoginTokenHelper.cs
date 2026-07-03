@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using System.Text;
+using CoreBase.DB;
+using CoreBase.Utilities;
 
 namespace CoreBase.Help
 {

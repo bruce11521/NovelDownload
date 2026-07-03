@@ -2,3 +2,6 @@
 NovelDownload/.vs
 NovelDownload/obj
 .vs
+CoreBase/bin
+CoreBase/obj
+NovelDownload/bin
